@@ -51,3 +51,16 @@ html, body {
     top: 50%;
     left: 50%;
 }
+
+#img {
+    position: absolute;
+    width: 500px;
+    right: 0;
+    transform: translateX(150%);
+    transition: transform 10s;
+}
+
+#img.peak {
+    transform: translateX(-50%) rotateZ(360deg) rotateY(360deg);
+
+}

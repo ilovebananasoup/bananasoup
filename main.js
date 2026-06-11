@@ -4,6 +4,7 @@ myAudio.loop = true;
 document.addEventListener('click', async () => {
     try {
         await myAudio.play();
+        document.getElementById('img').classList.add('peak');
     } catch (e) {
         console.error(e);
     }
