@@ -61,6 +61,6 @@ html, body {
 }
 
 #img.peak {
-    transform: translateX(-50%) rotateZ(360deg) rotateY(360deg);
+    transform: translateX(-50%) rotateZ(360deg) rotateY(720deg);
 
 }
